@@ -1,0 +1,113 @@
+/* using the css for items-container same as used in home.css for .category-item or we can use the selector in home.css as well as  */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.items-container{
+    margin: 50px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item-container {
+    width: 225px; 
+    margin: 10px;
+}
+
+.item-image {
+    width: 100%;
+    height: 250px;
+}
+
+.rating{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.company-name {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    color: #282c3f;
+    margin-bottom: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-name {
+    color: #535766;
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 400;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.price {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 15px;
+    color: #282c3f;
+    margin: 10px 0 6px;
+}
+
+.current-price {
+    font-size: 14px;
+    font-weight: 700;
+    color: #282c3f;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #7e818c;
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.discount {
+    color: #ff905a;
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.btn-add-bag {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: lightgreen;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+/* CSS for bag-item-count */
+
+.bag-item-count{
+    background-color: #ff3f6c;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 18px;
+    padding: 0px 6px;
+    position: relative;
+    border-radius: 50%;
+    left: 13px;
+    top: -44px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+}
+
